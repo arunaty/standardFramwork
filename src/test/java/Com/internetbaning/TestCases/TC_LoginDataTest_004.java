@@ -24,7 +24,8 @@ public class TC_LoginDataTest_004 extends BaseClass {
 
 		LP.SetPassword(password);
 		logger.info("Enter Password");
-
+		logger.info("Enter your Password Hear");
+		logger.info("Enter the new Creadential");
 		LP.Clickbtn();
 
 		if (Isalertpresent() == true) {
