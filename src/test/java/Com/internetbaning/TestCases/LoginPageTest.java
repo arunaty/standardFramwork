@@ -31,11 +31,7 @@ public class LoginPageTest extends BaseClass {
         LP.SetPassword(password);
         logger.info("Enter Password");
         logger.info("Enter Password");
-        logger.info("Enter Password");
-        logger.info("Enter Password");
-        logger.info("Enter Password");
-        logger.info("Enter Password");
-        LP.Clickbtn();
+         LP.Clickbtn();
 
         if (driver.getTitle().equals("Guru99 Bank Manager HomePag")) {
             logger.info("Get Title");
