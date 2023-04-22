@@ -1,0 +1,31 @@
+[1mdiff --git a/src/test/java/Com/internetbaning/TestCases/NewCutomerTest.java b/src/test/java/Com/internetbaning/TestCases/NewCutomerTest.java[m
+[1mindex b3fadfa..d38bd58 100644[m
+[1m--- a/src/test/java/Com/internetbaning/TestCases/NewCutomerTest.java[m
+[1m+++ b/src/test/java/Com/internetbaning/TestCases/NewCutomerTest.java[m
+[36m@@ -35,7 +35,7 @@[m [mpublic class NewCutomerTest extends BaseClass {[m
+         InternertBanking_addcutomerpage Addcust = new InternertBanking_addcutomerpage();[m
+ [m
+         Addcust.ClickaddNewCustomer();[m
+[31m-        logger.info("Clcik on addnew customer tab");[m
+[32m+[m[32m        logger.info("Clic on the new customer tab");[m
+ [m
+         Thread.sleep(3000);[m
+ [m
+[36m@@ -47,7 +47,7 @@[m [mpublic class NewCutomerTest extends BaseClass {[m
+         logger.info("Clcik on addnew customer tab");[m
+ [m
+         Addcust.Custname("Tom");[m
+[31m-        logger.info("Enter customer name");[m
+[32m+[m[32m        logger.info("Enter the full name of customer");[m
+ [m
+         Addcust.CustGender();[m
+         logger.info("Select gender");[m
+[36m@@ -58,7 +58,7 @@[m [mpublic class NewCutomerTest extends BaseClass {[m
+         Thread.sleep(2000);[m
+ [m
+         Addcust.CustAddress("snheahomes");[m
+[31m-        logger.info("Enter Address");[m
+[32m+[m[32m        logger.info("Enter full clear Address");[m
+ [m
+         Addcust.CustCity("Pune");[m
+         logger.info("Select city");[m

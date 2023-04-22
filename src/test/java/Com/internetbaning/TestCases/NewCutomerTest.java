@@ -35,7 +35,7 @@ public class NewCutomerTest extends BaseClass {
         InternertBanking_addcutomerpage Addcust = new InternertBanking_addcutomerpage();
 
         Addcust.ClickaddNewCustomer();
-        logger.info("Clcik on addnew customer tab");
+        logger.info("Clic on the new customer tab");
 
         Thread.sleep(3000);
 
@@ -47,7 +47,7 @@ public class NewCutomerTest extends BaseClass {
         logger.info("Clcik on addnew customer tab");
 
         Addcust.Custname("Tom");
-        logger.info("Enter customer name");
+        logger.info("Enter the full name of customer");
 
         Addcust.CustGender();
         logger.info("Select gender");
@@ -58,7 +58,7 @@ public class NewCutomerTest extends BaseClass {
         Thread.sleep(2000);
 
         Addcust.CustAddress("snheahomes");
-        logger.info("Enter Address");
+        logger.info("Enter full Address");
 
         Addcust.CustCity("Pune");
         logger.info("Select city");
