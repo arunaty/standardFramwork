@@ -27,13 +27,7 @@ public class NewCutomerTest extends BaseClass {
         logger.info("Enter username");
 
         LP.SetPassword(password);
-        logger.info("Enter Passsword of new customer");
-        logger.info("Enter Passsword of new customer");
-        logger.info("Enter Passsword of new customer");
-        logger.info("Enter Passsword of new customer");
-        logger.info("Enter Passsword of new customer");
-        logger.info("Enter Passsword of new customer");
-        logger.info("Enter Passsword of new customer");
+         logger.info("Enter Passsword of new customer With His Login Creadential");
         LP.Clickbtn();
 
         Thread.sleep(3000);

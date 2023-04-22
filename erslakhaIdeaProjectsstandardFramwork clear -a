@@ -1,0 +1,13 @@
+[1mdiff --git a/src/test/java/Com/internetbaning/TestCases/LoginPageTest.java b/src/test/java/Com/internetbaning/TestCases/LoginPageTest.java[m
+[1mindex 8d85bab..12bbd2a 100644[m
+[1m--- a/src/test/java/Com/internetbaning/TestCases/LoginPageTest.java[m
+[1m+++ b/src/test/java/Com/internetbaning/TestCases/LoginPageTest.java[m
+[36m@@ -16,7 +16,7 @@[m [mimport Com.internetbanking.BaseClass.BaseClass;[m
+ import Com.internetbanking.Pageobject.Internetbanking_LoginPage;[m
+ [m
+ public class LoginPageTest extends BaseClass {[m
+[31m-[m
+[32m+[m[32mdidiff[m
+ [m
+     @Test[m
+     public void LoginTest() throws IOException {[m
