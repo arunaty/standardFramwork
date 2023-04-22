@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -43,13 +44,13 @@ public class BaseClass {
 		PropertyConfigurator.configure("Log4j.properties");
 
 		if (br.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
-
+		//	System.setProperty("webdriver.chrome.driver", readconfig.getChromePath());
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else {
 
-			System.setProperty("webdriver.gecko.driver", readconfig.getForeFoxPath());
-
+		//	System.setProperty("webdriver.gecko.driver", readconfig.getForeFoxPath());
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 
@@ -88,7 +89,7 @@ public class BaseClass {
 	}
 
 }
-q
+
 
 
 
